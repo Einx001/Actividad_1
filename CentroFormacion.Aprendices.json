@@ -1,0 +1,57 @@
+[
+  {
+    "_id": 1010,
+    "nombre": "Carlos",
+    "apellido": "Perez",
+    "direccion": "Calle 10",
+    "telefono": "3001112233",
+    "edad": 20,
+    "matriculas": [
+      { "id_matricula": 1, "programa_id": 1001 }
+    ]
+  },
+  {
+    "_id": 1020,
+    "nombre": "Laura",
+    "apellido": "Gomez",
+    "direccion": "Carrera 15",
+    "telefono": "3002223344",
+    "edad": 22,
+    "matriculas": [
+      { "id_matricula": 2, "programa_id": 1002 }
+    ]
+  },
+  {
+    "_id": 1030,
+    "nombre": "Andres",
+    "apellido": "Martinez",
+    "direccion": "Calle 25",
+    "telefono": "3003334455",
+    "edad": 19,
+    "matriculas": [
+      { "id_matricula": 3, "programa_id": 1003 }
+    ]
+  },
+  {
+    "_id": 1040,
+    "nombre": "Sofia",
+    "apellido": "Ramirez",
+    "direccion": "Avenida 30",
+    "telefono": "3004445566",
+    "edad": 25,
+    "matriculas": [
+      { "id_matricula": 4, "programa_id": 1004 }
+    ]
+  },
+  {
+    "_id": 1050,
+    "nombre": "Juan",
+    "apellido": "Lopez",
+    "direccion": "Calle 45",
+    "telefono": "3005556677",
+    "edad": 21,
+    "matriculas": [
+      { "id_matricula": 5, "programa_id": 1005 }
+    ]
+  }
+]

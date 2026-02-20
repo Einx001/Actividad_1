@@ -1,0 +1,29 @@
+db.instructores.find({
+  salario: { $gt: 3000000 }
+})
+
+db.aprendices.find({
+  edad: { $gte: 21 }
+})
+
+db.programas.find({
+  duracion_meses: { $lt: 18 }
+})
+
+db.instructores.find({
+  edad: { $lte: 40 }
+})
+
+db.instructores.find({
+  salario: { 
+    $gte: 2800000,
+    $lte: 3800000
+  }
+})
+
+db.aprendices.find({
+  edad: {
+    $gt: 19,
+    $lt: 24
+  }
+})

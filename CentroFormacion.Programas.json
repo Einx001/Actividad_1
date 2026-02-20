@@ -1,0 +1,77 @@
+[
+  {
+    "_id": 1001,
+    "nombre": "ADSO",
+    "ubicacion": "Centro de comercio y servicios",
+    "tipo": "Tecnologo",
+    "jornada": "Diurna",
+    "duracion_meses": 24,
+    "modalidad": {
+      "id": 1,
+      "tipo": "Presencial"
+    },
+    "competencias": [
+      { "id": 1, "nombre": "Bases de datos", "horas": 120 }
+    ]
+  },
+  {
+    "_id": 1002,
+    "nombre": "Contabilidad",
+    "ubicacion": "Centro de comercio y servicios",
+    "tipo": "Tecnico",
+    "jornada": "Nocturna",
+    "duracion_meses": 18,
+    "modalidad": {
+      "id": 2,
+      "tipo": "Virtual"
+    },
+    "competencias": [
+      { "id": 2, "nombre": "Gestion Contable", "horas": 100 }
+    ]
+  },
+  {
+    "_id": 1003,
+    "nombre": "Diseno Grafico",
+    "ubicacion": "Centro de comercio y servicios",
+    "tipo": "Tecnologo",
+    "jornada": "Mixta",
+    "duracion_meses": 24,
+    "modalidad": {
+      "id": 3,
+      "tipo": "Distancia"
+    },
+    "competencias": [
+      { "id": 3, "nombre": "Diseno Publicitario", "horas": 110 }
+    ]
+  },
+  {
+    "_id": 1004,
+    "nombre": "Mantenimiento Industrial",
+    "ubicacion": "Centro agropecuario y de Informatica",
+    "tipo": "Tecnico",
+    "jornada": "Diurna",
+    "duracion_meses": 12,
+    "modalidad": {
+      "id": 4,
+      "tipo": "Presencial"
+    },
+    "competencias": [
+      { "id": 4, "nombre": "Mantenimiento Preventivo", "horas": 90 }
+    ]
+  },
+  {
+    "_id": 1005,
+    "nombre": "Marketing Digital",
+    "ubicacion": "Centro de comercio y servicios",
+    "tipo": "Tecnologo",
+    "jornada": "Virtual",
+    "duracion_meses": 18,
+    "modalidad": {
+      "id": 5,
+      "tipo": "Virtual"
+    },
+    "competencias": [
+      { "id": 5, "nombre": "Estrategias Digitales", "horas": 130 }
+    ]
+  }
+]

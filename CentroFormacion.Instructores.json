@@ -1,0 +1,52 @@
+[
+  {
+    "_id": 2010,
+    "nombre": "Miguel",
+    "apellido": "Torres",
+    "direccion": "Calle 5",
+    "telefono": "3101112233",
+    "tipo": "Planta",
+    "edad": 45,
+    "salario": 3500000
+  },
+  {
+    "_id": 2020,
+    "nombre": "Ana",
+    "apellido": "Morales",
+    "direccion": "Carrera 8",
+    "telefono": "3102223344",
+    "tipo": "Contrato",
+    "edad": 38,
+    "salario": 2800000
+  },
+  {
+    "_id": 2030,
+    "nombre": "Pedro",
+    "apellido": "Castro",
+    "direccion": "Calle 12",
+    "telefono": "3103334455",
+    "tipo": "Planta",
+    "edad": 50,
+    "salario": 4000000
+  },
+  {
+    "_id": 2040,
+    "nombre": "Diana",
+    "apellido": "Herrera",
+    "direccion": "Avenida 18",
+    "telefono": "3104445566",
+    "tipo": "Contrato",
+    "edad": 35,
+    "salario": 2600000
+  },
+  {
+    "_id": 2050,
+    "nombre": "Luis",
+    "apellido": "Rojas",
+    "direccion": "Calle 22",
+    "telefono": "3105556677",
+    "tipo": "Planta",
+    "edad": 48,
+    "salario": 3700000
+  }
+]
