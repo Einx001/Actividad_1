@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS centroFormacion;
+
 CREATE DATABASE IF NOT EXISTS centroFormacion;
 USE centroFormacion;
 
@@ -40,6 +42,7 @@ CREATE TABLE IF NOT EXISTS aprendices(
     Apellido_aprendiz VARCHAR(50) NOT NULL,
     Direccion_aprendiz VARCHAR(50) NOT NULL,
     Telefono_aprendiz VARCHAR(50) NOT NULL,
+    Nivel_Academico_aprendiz VARCHAR(50) NOT NULL,
 	PRIMARY KEY(Cedula_aprendiz)
 )ENGINE = INNODB;
 
@@ -74,13 +77,13 @@ CREATE TABLE IF NOT EXISTS orientaciones(
 	PRIMARY KEY(Id_orientacion),
 
 	programas_No_ficha_programa INT NOT NULL,
-    instructores_cedula_intructor INT NOT NULL,
+    instructores_cedula_instructor INT NOT NULL,
     
     CONSTRAINT fkorientaciones_programas
     FOREIGN KEY (programas_No_ficha_programa)
     REFERENCES programas(No_ficha_programa),
     
     CONSTRAINT fkorientaciones_instructores
-    FOREIGN KEY (instructores_cedula_intructor)
+    FOREIGN KEY (instructores_cedula_instructor)
     REFERENCES instructores(Cedula_instructor)
 )ENGINE = INNODB;
