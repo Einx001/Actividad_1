@@ -15,18 +15,18 @@ INSERT INTO modalidades VALUES
 (5, 'Virtual', 1005);
 
 INSERT INTO competencias VALUES
-(1, 'Analisis y Desarrollo de Software', 1001),
+(1, 'Bases de datos', 1001),
 (2, 'Gestion Contable', 1002),
 (3, 'Diseno Publicitario', 1003),
 (4, 'Mantenimiento Preventivo', 1004),
 (5, 'Estrategias Digitales', 1005);
 
 INSERT INTO aprendices VALUES
-(1010, 'Carlos', 'Perez', 'Calle 10', '3001112233'),
-(1020, 'Laura', 'Gomez', 'Carrera 15', '3002223344'),
-(1030, 'Andres', 'Martinez', 'Calle 25', '3003334455'),
-(1040, 'Sofia', 'Ramirez', 'Avenida 30', '3004445566'),
-(1050, 'Juan', 'Lopez', 'Calle 45', '3005556677');
+(1010, 'Carlos', 'Perez', 'Calle 10', '3001112233', 'Bachiller Basico'),
+(1020, 'Laura', 'Gomez', 'Carrera 15', '3002223344', 'Bachiller Secundario'),
+(1030, 'Andres', 'Martinez', 'Calle 25', '3003334455', 'Primaria'),
+(1040, 'Sofia', 'Ramirez', 'Avenida 30', '3004445566', 'Bachiller Secundario'),
+(1050, 'Juan', 'Lopez', 'Calle 45', '3005556677', 'Bachiller Secundario');
 
 INSERT INTO matriculas VALUES
 (1, 1001, 1010),
